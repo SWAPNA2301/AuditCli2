@@ -1,0 +1,34 @@
+{
+  "name": "auditcli",
+  "version": "0.1.0",
+  "description": "CLI that audits a website for broken links, security headers, SEO/content issues, tech stack, and competitor comparison — with optional Jira ticket auto-creation.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "bin": {
+    "auditcli": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "audit",
+    "security",
+    "seo",
+    "hackathon"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "figlet": "^1.8.0",
+    "ora": "^5.4.1",
+    "puppeteer-core": "^23.11.1"
+  }
+}
